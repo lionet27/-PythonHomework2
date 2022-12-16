@@ -3,7 +3,7 @@
 
 import math
 list=[]
-N=int(input('N='))
-for i in range(1,N+1):
+n=int(input('N='))
+for i in range(1,n+1):
     list.append(math.factorial(i))
 print(list)
